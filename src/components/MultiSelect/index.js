@@ -3,9 +3,9 @@ import { useState } from "react";
 
 // Internal Dependencies
 import Menu from "./../Menu";
-import useGetColor from "../../hooks/useGetColor";
 import ColorItem from "../ColorItem";
 import { CloseIcon, SearchIcon } from "./../Icons";
+import useGetColor from "../../hooks/useGetColor";
 import {
   CloseIconContainer,
   Container,
