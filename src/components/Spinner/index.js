@@ -1,7 +1,7 @@
 // Internal Dependencies
 import { Spinner as SpinnerItem } from "./spinner.styled";
 
-export default () => {
+const Spinner = () => {
   return (
     <div>
       <SpinnerItem viewBox="0 0 50 50">
@@ -17,3 +17,5 @@ export default () => {
     </div>
   );
 };
+
+export default Spinner;
