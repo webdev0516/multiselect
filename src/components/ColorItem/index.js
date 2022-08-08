@@ -5,7 +5,7 @@ import { CloseButton, Container, Label } from "./coloritem.styled";
 // Internal Dependencies
 import { RemoveIcon } from './../Icons';
 
-export default ({ color, onClose, focus }) => {
+const ColorItem =  ({ color, onClose, focus }) => {
     const ref = useRef();
     console.log(focus);
 
@@ -48,3 +48,5 @@ export default ({ color, onClose, focus }) => {
         </Container>
     );
 };
+
+export default ColorItem;

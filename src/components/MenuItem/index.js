@@ -1,5 +1,4 @@
 // Internal Dependencies
-import { useEffect, useRef } from "react";
 import { Button, HighLight } from "./menuitem.styled";
 
 const MenuItem = ({ color, onClick, focus }) => {

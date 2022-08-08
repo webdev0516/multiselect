@@ -14,7 +14,7 @@ export const Button = styled.div`
   background: ${(props) => props.color};
   box-shadow: 0 0 0 ${(props) => props.focus ? `3px ${props.color}60`: '0'};
   &:hover {
-    box-shadow: 0 0 0 3px${(props) => props.focus ? `${props.color}60`: '${props.color}20'};
+    box-shadow: 0 0 0 3px${(props) => props.focus ? `${props.color}60`: `${props.color}20`};
     cursor: pointer;
   }
 `;

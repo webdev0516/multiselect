@@ -30,7 +30,6 @@ const MultiSelect = () => {
   const [menuDisable, setMenuDisable] = useState(false);
   const {data, loading} = useGetColor(query);
   const [curIndex, setCurIndex] = useState(-1);
-  const [curSelIndex, setCurSelIndex] = useState(-1);
 
   const handleSearch = (e) => {
     setQuery(e.target.value);
@@ -80,7 +79,6 @@ const MultiSelect = () => {
         e.preventDefault();
         setMenuDisable(true);
         setCurIndex(-1);
-        setCurSelIndex(-1);
         break;
       default:
         break;

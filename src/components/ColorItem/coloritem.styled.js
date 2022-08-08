@@ -18,7 +18,7 @@ export const Container = styled.button`
     box-shadow: 0 0 0 3px ${(props) => props.color}20;
   }
   outline: none;
-  box-shadow: 0 0 0 3px${(props) => props.focus ? `${props.color}60`: '${props.color}20'};
+  box-shadow: 0 0 0 3px${(props) => props.focus ? `${props.color}60`: `${props.color}20`};
 `;
 
 export const Label = styled.span`
